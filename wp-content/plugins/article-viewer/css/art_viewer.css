@@ -1,0 +1,31 @@
+#categories_viewer ul {
+  list-style: none;
+}
+#categories_viewer ul li a {
+  color: #000000;
+  font-weight: bold;
+}
+#categories_viewer ul li a:hover {
+  color: #32b541;
+}
+
+#next-arrow,
+#previous-arrow {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+#next-arrow span,
+#previous-arrow span {
+  display: inline-block;
+  width: 50%;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #32b541;
+  font-weight: bold;
+  padding: 3%;
+}
+
+#article_viewer {
+  margin-top: 2em;
+}
